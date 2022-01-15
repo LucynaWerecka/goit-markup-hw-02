@@ -1,0 +1,106 @@
+:root {
+  --main-color: #2196f3;
+  --main-font: "roboto", sans-serif;
+  --secondary-font: "raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+/* ======== COMPONENTS ======== */
+.modal-btn {
+  background-color: #2196f3;
+  color: white;
+  font-size: 16;
+  line-height: 1.6;
+  letter-spacing: 6%;
+}
+
+.paragraf {
+  font-size: 14px;
+  line-height: 24px;
+  line-height: 1.46;
+  letter-spacing: 3%;
+}
+
+.heading2 {
+  font-size: 36px;
+  line-height: 42px;
+  line-height: 1;
+  letter-spacing: 3%;
+}
+/* ======== END COMPONENTS ======== */
+
+/* ======== HEADER ======== */
+.navigation-logo:hover,
+.navigation-logo:focus .navigation-logo {
+  font-weight: 700;
+  line-height: 31px;
+  line-height: 1;
+  letter-spacing: 3%;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus .navigation-list-item {
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 1;
+  letter-spacing: 2%;
+}
+
+.navigation-list-link,
+.navigation-list-link-1 {
+  color: #212121;
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 1;
+  letter-spacing: 2%;
+}
+.navigation-list-link-1 {
+  color: #2196f3;
+}
+
+.address-mail,
+.address-phone-number {
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 1;
+  letter-spacing: 2%;
+}
+
+.address-mail {
+  color: #2196f3;
+}
+.address-phone-number {
+  color: #2f303a;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+.heading {
+  color: white;
+  font-size: 44px;
+  line-height: 60px;
+  line-height: 1.063;
+  letter-spacing: 6%;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 16px;
+  line-height: 1;
+  letter-spacing: 3%;
+}
+
+.name,
+.position {
+  font-size: 16px;
+  line-height: 19px;
+  line-height: 1;
+  letter-spacing: 3%;
+}
+
+.position {
+  color: #757575;
+}
+/* ======== END HEADER ======== */
