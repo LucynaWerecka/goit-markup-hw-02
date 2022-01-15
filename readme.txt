@@ -1,1 +1,1 @@
-https://lucynawerecka.github.io/goit-markup-hw-01/
+https://lucynawerecka.github.io/goit-markup-hw-02/
