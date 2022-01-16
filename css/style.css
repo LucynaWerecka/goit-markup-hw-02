@@ -8,22 +8,21 @@ body {
   font-family: var(--main-font);
 }
 /* ======== COMPONENTS ======== */
+.link {
+    text-decoration: none;
+}
+
 .modal-btn {
   background-color: #2196f3;
   color: white;
+  font-weight: 700 ;
   font-size: 16;
+  line-height: 30;
   line-height: 1.6;
   letter-spacing: 6%;
 }
 
-.paragraf {
-  font-size: 14px;
-  line-height: 24px;
-  line-height: 1.46;
-  letter-spacing: 3%;
-}
-
-.heading2 {
+#list-header {
   font-size: 36px;
   line-height: 42px;
   line-height: 1;
@@ -32,75 +31,127 @@ body {
 /* ======== END COMPONENTS ======== */
 
 /* ======== HEADER ======== */
-.navigation-logo:hover,
-.navigation-logo:focus .navigation-logo {
-  font-weight: 700;
-  line-height: 31px;
-  line-height: 1;
-  letter-spacing: 3%;
+
+.navigation-logo {
+    color: #2196f3;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    line-height: 1;
+    letter-spacing: 3%;
+    text-decoration: none;
 }
-.navigation-list-link:hover,
-.navigation-list-link:focus .navigation-list-item {
+
+.navigation-list-item {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
   letter-spacing: 2%;
 }
 
-.navigation-list-link,
-.navigation-list-link-1 {
+.navigation-list-link {
   color: #212121;
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
   letter-spacing: 2%;
+  text-decoration: none;
 }
-.navigation-list-link-1 {
+.navigation-list-link-color {
   color: #2196f3;
+  text-decoration: none;
 }
 
-.address-mail,
-.address-phone-number {
+.header .address-mail,
+.header .address-phone-number {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
   letter-spacing: 2%;
+  text-decoration: none;
 }
 
-.address-mail {
+.header > .address-mail {
   color: #2196f3;
 }
-.address-phone-number {
-  color: #2f303a;
+.header > .address-phone-number {
+  color: #757575;
 }
+/* ======== END HEADER ======== */
 
+/* ======== HERO ======== */
 .hero {
   background-color: #2f303a;
 }
-.heading {
+.main-header {
   color: white;
   font-size: 44px;
   line-height: 60px;
   line-height: 1.063;
   letter-spacing: 6%;
 }
+/* ======== END HERO ======== */
 
-.title {
+
+/* ======== BODY ======== */
+
+.section-text,
+.about {
+    background-color: #E5E5E5;
+}
+.body-header {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
   letter-spacing: 3%;
 }
 
-.name,
-.position {
+.body-text {
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 1.46;
+    letter-spacing: 3%;
+    color: #757575;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+.team-list-item-name,
+.team-list-item-position {
   font-size: 16px;
   line-height: 19px;
   line-height: 1;
   letter-spacing: 3%;
 }
 
-.position {
+.team-list-item-position {
   color: #757575;
 }
-/* ======== END HEADER ======== */
+/* ======== END BODY ======== */
+
+/* ======== FOOTER ======== */
+.footer {
+    background-color: #2f303a;
+}
+.footer > .address {
+    font-size: 14px;
+    line-height: 24px;
+    line-height: 1,46;
+    letter-spacing: 3%;
+    color: #FFFFFF; 
+    opacity: 60%;
+    font-style: normal;
+    text-decoration: none;
+}
+.address-text {
+    fill: solid;
+}
+.footer .address-mail,
+.footer .address-phone-number {
+    color: #FFFFFF; 
+    opacity: 60%;
+    font-style: normal;
+    text-decoration: none;
+}
+/* ======== END FOOTER ======== */
