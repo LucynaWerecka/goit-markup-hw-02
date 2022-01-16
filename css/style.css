@@ -16,17 +16,17 @@ body {
   background-color: #2196f3;
   color: white;
   font-weight: 700 ;
-  font-size: 16;
+  font-size: 16px;
   line-height: 30;
   line-height: 1.6;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 #list-header {
   font-size: 36px;
   line-height: 42px;
   line-height: 1;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 /* ======== END COMPONENTS ======== */
 
@@ -38,7 +38,7 @@ body {
     font-weight: 700;
     line-height: 31px;
     line-height: 1;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .navigation-list-link {
@@ -54,7 +54,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .navigation-list-link-color {
@@ -67,7 +67,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ body {
   font-size: 44px;
   line-height: 60px;
   line-height: 1.063;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 /* ======== END HERO ======== */
 
@@ -103,14 +103,14 @@ body {
   font-size: 14px;
   line-height: 16px;
   line-height: 1;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .body-text {
     font-size: 14px;
     line-height: 24px;
     line-height: 1.46;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 
@@ -122,7 +122,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   line-height: 1;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .team-list-item-position {
@@ -137,15 +137,11 @@ body {
 .footer > .address {
     font-size: 14px;
     line-height: 24px;
-    line-height: 1,46;
-    letter-spacing: 3%;
+    line-height: 1.46;
+    letter-spacing: 0.03em;
     color: #FFFFFF; 
-    opacity: 60%;
     font-style: normal;
     text-decoration: none;
-}
-.address-text {
-    fill: solid;
 }
 .footer .address-mail,
 .footer .address-phone-number {
